@@ -8,7 +8,7 @@ jobs:
         run: echo "Welcome to sysfoo"
         
       - name: Checkout repository
-        uses: actions/checkout@v46
+        uses: actions/checkout@v6
         
       - name: test
         run : mvn test
