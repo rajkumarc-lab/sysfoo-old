@@ -19,9 +19,8 @@ jobs:
       - name: Package
         run: mvn package
         
-      - name: view files
+      - name: view
         run: ls -lrt
         
-
       
         -
